@@ -175,7 +175,19 @@ export const LCAForm: React.FC<LCAFormProps> = ({
 
 
           {/* Form Actions */}
-          <div className="form-actions justify-center">
+          <div className="form-actions flex flex-col md:flex-row items-center justify-center gap-4">
+            {/* Reset Button */}
+            <button
+              type="button"
+              onClick={onReset}
+              disabled={isLoading}
+              className="w-full max-w-md md:max-w-xs px-4 py-3 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition-colors disabled:opacity-60"
+              aria-label="Reset form"
+            >
+              Reset
+            </button>
+
+            {/* Submit Button */}
             <button
               type="submit"
               className="btn-primary w-full max-w-md"
