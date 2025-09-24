@@ -7,7 +7,7 @@ import type {
   ImpactMetrics,
 } from "../types/lca";
 
-const BASE_URL = "https://sih-back-pearl.vercel.app/";
+const BASE_URL = "https://sih-back-pearl.vercel.app";
 const API_BASE_URL = `${BASE_URL}/api/lca`;
 
 // Custom error class for API errors
