@@ -124,7 +124,6 @@ function App() {
               formData={formData}
               onUpdateFormData={updateFormData}
               onSubmit={submitAssessment}
-              onReset={resetForm}
               supportedMaterials={supportedMaterials}
               supportedProcesses={supportedProcesses}
               validationErrors={validationErrors}
